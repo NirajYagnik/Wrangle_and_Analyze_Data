@@ -1,6 +1,7 @@
 # Wrangle_and_Analyze_Data
 Wrangling the tweet archive of Twitter user @dog_rates, also known as WeRateDogs and analysing the data after Wrangling.
 For the first step, I gathered data from three soucres,
+
 Sources are:
 a) The WeRateDogs Twitter archive is provided by twitter_archive_enhanced.csv which is downloaded manually .
 b) The next table to be extracted is the Image Prediction table which I downloaded programmatically. This file (image_predictions.tsv) is hosted on Udacity's servers and should be downloaded programmatically using the Requests library.
@@ -10,6 +11,7 @@ II. Assessing: After gathering all the data I divided the assessing part into tw
 a) For Manual Assessment, I looked for errors by looking from the tables visually and check for Data Tidiness.
 b) For Programmatic Assessment , I looked the .info() function to check for Data Quality . I also assessed individual columns in seek for any data issues.
 At the end of this process I came across 9 Data Quality Issues and 3 tidiness Issues.
+
 III. Cleaning:
 For the final step of the wrangling act I rectified 9 Data Quality Issues and 3 Tidiness IssuesI initially made copies of the original tables to allow me to work with the copied table and experiment with them which turned out to be extremely useful as I lost the data in the copied data several time due to wrong code or logic.
 
