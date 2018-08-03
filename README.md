@@ -4,7 +4,9 @@ For the first step, I gathered data from three soucres,
 
 Sources are:
 a) The WeRateDogs Twitter archive is provided by twitter_archive_enhanced.csv which is downloaded manually .
+
 b) The next table to be extracted is the Image Prediction table which I downloaded programmatically. This file (image_predictions.tsv) is hosted on Udacity's servers and should be downloaded programmatically using the Requests library.
+
 c) The next piece of data was the most difficult to gather out of the three. Using the tweet IDs in the WeRateDogs Twitter archive, query the Twitter API for each tweet's JSON data using Python's Tweepy library and store each tweet's entire set of JSON data in a file called tweet_json.txt file. The data in this table consists of information like retweets and favourites for that particular tweet. It took me several tries and hours for wait to get finally data
 
 II. Assessing: After gathering all the data I divided the assessing part into two segments: a) Manual Assessment b) Programmatic Assessment.
